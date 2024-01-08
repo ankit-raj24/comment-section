@@ -1,0 +1,58 @@
+.container {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2eeeee9;
+    border-radius: 4px;
+    width: 520px;
+}
+
+.delete_btn {
+    border: 1px solid black;
+    margin-right: -33px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: black;
+    padding: 2px;
+}
+
+.sub_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.content {
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.btn_wrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    color: rgb(6, 140, 202);
+    letter-spacing: 0.2px;
+    padding: 0;
+}
